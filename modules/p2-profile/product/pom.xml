@@ -414,6 +414,9 @@
                 <featureArtifactDef>org.wso2.carbon.commons:org.wso2.carbon.ndatasource.feature:4.4.8</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.authenticator.oidc.feature:2.0.1</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.hostobjects.oidc.feature:2.0.1</featureArtifactDef> 
+				
+				<!-- huangxm add -->
+				<featureArtifactDef>org.wso2.carbon.mediation:org.apache.synapse.wso2.mediation.feature:4.4.10</featureArtifactDef>
               </featureArtifacts> 
             </configuration> 
           </execution>  
