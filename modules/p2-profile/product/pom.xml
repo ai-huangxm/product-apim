@@ -332,8 +332,7 @@
                 <featureArtifactDef>org.wso2.carbon.mediation:org.wso2.carbon.mediation.tracer.feature:4.4.10</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon:org.wso2.carbon.localentry.server.feature:4.2.1</featureArtifactDef>  
                 <!--featureArtifactDef>org.wso2.carbon:org.wso2.carbon.endpoint.server.feature:${carbon.platform.version}</featureArtifactDef-->  
-                <featureArtifactDef>org.wso2.carbon:org.wso2.carbon.rest.api.feature:4.2.2</featureArtifactDef>  
-                <featureArtifactDef>org.wso2.carbon:org.wso2.carbon.sequences.server.feature:4.2.1</featureArtifactDef>  
+                <featureArtifactDef>org.wso2.carbon:org.wso2.carbon.rest.api.feature:4.2.2</featureArtifactDef>   
                 <featureArtifactDef>org.wso2.carbon.apimgt:org.wso2.carbon.forum.server.feature:2.0.1</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon.mediation:org.wso2.carbon.mediators.server.feature:4.4.10</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon:org.wso2.carbon.proxyadmin.server.feature:4.2.2</featureArtifactDef>  
@@ -674,11 +673,7 @@
                 <feature> 
                   <id>org.wso2.carbon.rest.api.server.feature.group</id>  
                   <version>4.2.2</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.sequences.server.feature.group</id>  
-                  <version>4.2.1</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.mediators.server.feature.group</id>  
                   <version>4.4.10</version> 
@@ -1065,11 +1060,7 @@
                 <feature> 
                   <id>org.wso2.carbon.rest.api.server.feature.group</id>  
                   <version>4.2.2</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.sequences.server.feature.group</id>  
-                  <version>4.2.1</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.mediators.server.feature.group</id>  
                   <version>4.4.10</version> 
@@ -1395,11 +1386,7 @@
                 <feature> 
                   <id>org.wso2.carbon.rest.api.server.feature.group</id>  
                   <version>4.2.2</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.sequences.server.feature.group</id>  
-                  <version>4.2.1</version> 
-                </feature>  
+                </feature>    
                 <feature> 
                   <id>org.wso2.carbon.mediators.server.feature.group</id>  
                   <version>4.4.10</version> 
@@ -1761,11 +1748,7 @@
                 <feature> 
                   <id>org.wso2.carbon.rest.api.server.feature.group</id>  
                   <version>4.2.2</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.sequences.server.feature.group</id>  
-                  <version>4.2.1</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.mediators.server.feature.group</id>  
                   <version>4.4.10</version> 
@@ -2163,11 +2146,7 @@
                 <feature> 
                   <id>org.wso2.carbon.rest.api.server.feature.group</id>  
                   <version>4.2.2</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.sequences.server.feature.group</id>  
-                  <version>4.2.1</version> 
-                </feature>  
+                </feature>    
                 <feature> 
                   <id>org.wso2.carbon.mediators.server.feature.group</id>  
                   <version>4.4.10</version> 
@@ -2553,11 +2532,7 @@
                 <feature> 
                   <id>org.wso2.carbon.rest.api.server.feature.group</id>  
                   <version>4.2.2</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.sequences.server.feature.group</id>  
-                  <version>4.2.1</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.mediators.server.feature.group</id>  
                   <version>4.4.10</version> 
