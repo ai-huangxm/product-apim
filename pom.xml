@@ -730,7 +730,7 @@
     <apimgt.startup.publisher.feature.version>1.2.5</apimgt.startup.publisher.feature.version>  
     <apimgt.store.feature.version>1.2.5</apimgt.store.feature.version>  
     <carbon.deployment.version>4.2.3</carbon.deployment.version>  
-    <carbon.kernel.version>4.2.0</carbon.kernel.version>  
+    <carbon.kernel.version>4.4.2</carbon.kernel.version>  
     <apimserver.version>1.9.1</apimserver.version>  
     <apim.version>1.2.5</apim.version>  
     <apim.feature.version>1.2.5</apim.feature.version>  
