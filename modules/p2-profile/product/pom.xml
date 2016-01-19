@@ -313,14 +313,9 @@
                 <featureArtifactDef>org.wso2.carbon.identity:org.wso2.carbon.security.mgt.feature:4.5.6</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon.identity:org.wso2.carbon.security.mgt.server.feature:4.5.6</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon.deployment:org.wso2.carbon.service.mgt.server.feature:4.5.3</featureArtifactDef>  
-                <featureArtifactDef>org.wso2.carbon.commons:org.wso2.carbon.transport.mgt.feature:4.3.0-SNAPSHOT</featureArtifactDef>  
-                <featureArtifactDef>org.wso2.carbon.commons:org.wso2.carbon.transport.mail.feature:4.3.0-SNAPSHOT</featureArtifactDef>  
-                <featureArtifactDef>org.wso2.carbon.commons:org.wso2.carbon.transport.nhttp.feature:4.3.0-SNAPSHOT</featureArtifactDef>  
-                <featureArtifactDef>org.wso2.carbon.commons:org.wso2.carbon.transport.jms.feature:4.3.0-SNAPSHOT</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon.commons:org.wso2.carbon.message.flows.feature:4.4.8</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon:org.wso2.carbon.xfer.feature:${carbon.platform.version}</featureArtifactDef>  
-                <featureArtifactDef>org.wso2.carbon:org.wso2.carbon.mex.feature:${carbon.platform.version}</featureArtifactDef>  
-                <featureArtifactDef>org.wso2.carbon.commons:org.wso2.carbon.datasource.server.feature:4.3.0-SNAPSHOT</featureArtifactDef>  
+                <featureArtifactDef>org.wso2.carbon:org.wso2.carbon.mex.feature:${carbon.platform.version}</featureArtifactDef>   
                 <featureArtifactDef>org.wso2.carbon.commons:org.wso2.carbon.tryit.feature:4.4.8</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon.registry:org.wso2.carbon.registry.core.feature:4.5.0</featureArtifactDef>  
                 <featureArtifactDef>org.wso2.carbon.registry:org.wso2.carbon.registry.core.server.feature:4.5.0</featureArtifactDef>  
@@ -571,11 +566,7 @@
                 <feature> 
                   <id>org.apache.synapse.transport.nhttp.feature.group</id>  
                   <version>${synapse.version}</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.datasource.server.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.task.server.feature.group</id>  
                   <version>4.4.10</version> 
@@ -639,23 +630,7 @@
                 <feature> 
                   <id>org.wso2.carbon.service.mgt.server.feature.group</id>  
                   <version>4.5.3</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mgt.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mail.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.nhttp.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.jms.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.message.flows.feature.group</id>  
                   <version>4.4.8</version> 
@@ -992,10 +967,6 @@
                   <version>${synapse.version}</version> 
                 </feature>  
                 <feature> 
-                  <id>org.wso2.carbon.datasource.server.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
                   <id>org.wso2.carbon.task.server.feature.group</id>  
                   <version>4.4.10</version> 
                 </feature>  
@@ -1050,23 +1021,7 @@
                 <feature> 
                   <id>org.wso2.carbon.service.mgt.server.feature.group</id>  
                   <version>4.5.3</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mgt.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mail.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.nhttp.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.jms.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.message.flows.feature.group</id>  
                   <version>4.4.8</version> 
@@ -1340,11 +1295,7 @@
                 <feature> 
                   <id>org.apache.synapse.transport.nhttp.feature.group</id>  
                   <version>${synapse.version}</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.datasource.server.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.task.server.feature.group</id>  
                   <version>4.4.10</version> 
@@ -1400,23 +1351,7 @@
                 <feature> 
                   <id>org.wso2.carbon.service.mgt.server.feature.group</id>  
                   <version>4.5.3</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mgt.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mail.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.nhttp.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.jms.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.message.flows.feature.group</id>  
                   <version>4.4.8</version> 
@@ -1720,10 +1655,6 @@
                   <version>${synapse.version}</version> 
                 </feature>  
                 <feature> 
-                  <id>org.wso2.carbon.datasource.server.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
                   <id>org.wso2.carbon.task.server.feature.group</id>  
                   <version>4.4.10</version> 
                 </feature>  
@@ -1786,23 +1717,7 @@
                 <feature> 
                   <id>org.wso2.carbon.service.mgt.server.feature.group</id>  
                   <version>4.5.3</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mgt.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mail.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.nhttp.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.jms.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.message.flows.feature.group</id>  
                   <version>4.4.8</version> 
@@ -2140,11 +2055,7 @@
                 <feature> 
                   <id>org.apache.synapse.transport.nhttp.feature.group</id>  
                   <version>${synapse.version}</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.datasource.server.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.task.server.feature.group</id>  
                   <version>4.4.10</version> 
@@ -2208,23 +2119,7 @@
                 <feature> 
                   <id>org.wso2.carbon.service.mgt.server.feature.group</id>  
                   <version>4.5.3</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mgt.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mail.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.nhttp.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.jms.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.message.flows.feature.group</id>  
                   <version>4.4.8</version> 
@@ -2550,11 +2445,7 @@
                 <feature> 
                   <id>org.apache.synapse.transport.nhttp.feature.group</id>  
                   <version>${synapse.version}</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.datasource.server.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.task.server.feature.group</id>  
                   <version>4.4.10</version> 
@@ -2618,23 +2509,7 @@
                 <feature> 
                   <id>org.wso2.carbon.service.mgt.server.feature.group</id>  
                   <version>4.5.3</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mgt.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.mail.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.nhttp.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
-                <feature> 
-                  <id>org.wso2.carbon.transport.jms.feature.group</id>  
-                  <version>4.3.0-SNAPSHOT</version> 
-                </feature>  
+                </feature>   
                 <feature> 
                   <id>org.wso2.carbon.message.flows.feature.group</id>  
                   <version>4.4.8</version> 
